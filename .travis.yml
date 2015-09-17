@@ -1,6 +1,5 @@
 language: c
 
 before_install:
-   - cat /opt/chef-server/version-manifest.txt
    - ls /usr/lib/ruby/gems/1.8/gems
    
