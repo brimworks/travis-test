@@ -1,4 +1,7 @@
 language: c
 
 before_install:
-   - chef-solo -v
+   - cat /usr/lib/ruby/vendor_ruby/chef-server/version.rb
+   - cat /opt/chef-server/version-manifest.txt
+   - ls /usr/lib/ruby/gems/1.8/gems
+   
