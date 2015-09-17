@@ -1,5 +1,5 @@
-language: c
+language: java
 
-before_install:
-   - find /usr/lib/ruby /opt/chef
+script:
+   - env
    
