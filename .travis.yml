@@ -1,5 +1,5 @@
 language: c
 
 before_install:
-   - ls /usr/lib/ruby/gems/1.8/gems
+   - find /usr/lib/ruby /opt/chef
    
