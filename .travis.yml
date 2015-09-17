@@ -2,4 +2,3 @@ language: c
 
 before_install:
    - chef-solo -v
-   
